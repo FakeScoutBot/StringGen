@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from config import SUPPORT_CHAT
+from config import SUPPORT_CHAT, SUPPORT_CHANNEL
 
 
 keyboard = InlineKeyboardMarkup(
@@ -9,7 +9,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/+v1ubYvri73owZDk9"
+                text="ᴄʜᴀɴɴᴇʟ", url=SUPPORT_CHANNEL
             ),
         ],
     ]
