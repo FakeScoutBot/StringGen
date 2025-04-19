@@ -53,7 +53,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [˹sᴛꝛɪɴɢ ғ�
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
 `nano sample.env`<br>
-Press `Ctrl+C` when you're done with editing env and `S` to save the env<br>
+Press `Ctrl+X` when you're done with editing env and `Y` then enter to save the env<br>
 - Rename the env file by :
 `mv sample.env .env`
 - Install tmux to keep running your bot when you close the terminal by :
